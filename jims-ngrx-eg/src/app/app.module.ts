@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { mainReducer } from "./state-management/reducers/main-reducer";
+import { StoreModule } from "@ngrx/store";
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    StoreModule.provideStore({mainReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

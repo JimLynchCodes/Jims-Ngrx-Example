@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303095b9-f31d-4b67-99c7-92e98a5f692e" name="Default" comment="" />
+    <list default="true" id="303095b9-f31d-4b67-99c7-92e98a5f692e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/actions/main-action-creator.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/effects/main-effects.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/state/main-state.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/SyncSubject.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/SyncSubject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/enterZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/enterZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/leaveZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/leaveZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/select.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/add/operator/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/bundles/core.min.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/bundles/core.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/compose.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/compose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/compose.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/index.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/enterZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/enterZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/enterZone.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/leaveZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/leaveZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/leaveZone.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/select.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/operator/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/compose.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/compose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/compose.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/compose.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/enterZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/enterZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/enterZone.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/enterZone.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/leaveZone.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/leaveZone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/leaveZone.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/leaveZone.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/select.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/core/src/operator/select.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/bundles/store.min.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/bundles/store.umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/index.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/dispatcher.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/dispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/dispatcher.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/ng2.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/ng2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/ng2.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/ng2.metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/reducer.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/reducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/reducer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/state.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/state.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/store.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/store.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/store.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/utils.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ngrx/store/src/utils.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/package.json" afterPath="$PROJECT_DIR$/jims-ngrx-eg/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.module.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.module.ts" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +100,89 @@
   <component name="FavoritesManager">
     <favorites_list name="Jims-Ngrx-Example" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main-state.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/state/main-state.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-reducer.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-effects.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/effects/main-effects.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-action-creator.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/actions/main-action-creator.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/state/main-state.ts" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/actions/main-action-creator.ts" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -28,12 +190,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
-    <option name="y" value="65" />
+    <option name="x" value="709" />
+    <option name="y" value="37" />
     <option name="width" value="940" />
     <option name="height" value="914" />
   </component>
@@ -144,6 +303,100 @@
               <option name="myItemId" value="state-management" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jims-ngrx-eg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jims-ngrx-eg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jims-Ngrx-Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jims-ngrx-eg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state-management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -157,6 +410,62 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="editor.config.accepted" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -168,34 +477,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480269845952</updated>
-      <workItem from="1480269848372" duration="67000" />
+      <workItem from="1480269848372" duration="5730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67000" />
+    <option name="totallyTimeSpent" value="5730000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="65" width="940" height="914" extended-state="0" />
-    <editor active="false" />
+    <frame x="709" y="37" width="940" height="914" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tslint/scripts/buildDocs.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/enum/enum.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/type/type.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc/jsdoc.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/super/super.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/coerce/coerce.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/export/export.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/export/export_helper.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/export/export_helper_2.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/fields/fields.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/static/static.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/declare/declare.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/default/default.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/typedef/typedef.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/abstract/abstract.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/arrow_fn/arrow_fn.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/comments/comments.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/optional/optional.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/decorator/decorator.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/functions/functions.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/interface/interface.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/variables/variables.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/underscore/export_underscore.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/underscore/underscore.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types/jsdoc_types.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types/module2.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types/nevertyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types/module1.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types/default.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/enum.untyped/enum.untyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/file_comment/file_comment.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/basic.untyped/basic.untyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/fields_no_ctor/fields_no_ctor.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/type_and_value/module.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/type_and_value/type_and_value.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/typedef.untyped/typedef.untyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/arrow_fn.untyped/arrow_fn.untyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/declare_class_ns/declare_class_ns.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/functions.untyped/functions.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/structural.untyped/structural.untyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types.untyped/jsdoc_types.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types.untyped/module2.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types.untyped/nevertyped.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types.untyped/module1.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsdoc_types.untyped/default.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/parameter_properties/parameter_properties.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/angular-cli/node_modules/tslint/scripts/buildDocs.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/reflect-metadata/Reflect.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/reflect-metadata/Reflect.js.map" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/awesome-typescript-loader/src/test/fixtures/babel/babel.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/awesome-typescript-loader/src/test/fixtures/basic/basic.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/awesome-typescript-loader/src/test/fixtures/salsa/index.js" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/node_modules/tsickle/test_files/jsx/jsx.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -203,5 +574,61 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/actions/main-action-creator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/effects/main-effects.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/state/main-state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -6,6 +6,19 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { mainReducer } from "./state-management/reducers/main-reducer";
 import { StoreModule } from "@ngrx/store";
+import {MainEffects} from "./state-management/effects/main-effects";
+import {EffectsModule} from "@ngrx/effects";
+import { AngularFireModule } from 'angularfire2';
+
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyA30SGQ-4ozFHftYzsHlQxFdqVgbvuaLVU",
+  authDomain: "cypherapp-ef93a.firebaseapp.com",
+  databaseURL: "https://cypherapp-ef93a.firebaseio.com",
+  storageBucket: "cypherapp-ef93a.appspot.com",
+  messagingSenderId: "550160402640"
+};
+
 
 @NgModule({
   declarations: [
@@ -15,9 +28,12 @@ import { StoreModule } from "@ngrx/store";
     BrowserModule,
     FormsModule,
     HttpModule,
-    StoreModule.provideStore({mainReducer})
+    StoreModule.provideStore({mainReducer}),
+    EffectsModule.run(MainEffects),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

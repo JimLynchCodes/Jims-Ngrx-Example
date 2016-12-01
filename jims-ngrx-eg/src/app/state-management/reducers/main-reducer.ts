@@ -23,6 +23,22 @@ export const mainReducer: ActionReducer<State> =
         }
       }
 
+      case "PAYLOAD_EFFECT_RESPONDS": {
+        console.log("got payload from effect: " + action.payload.message);
+      }
+
+      case "FIREBASE_CALL_FINISHED": {
+
+        if (action.payload.pulledArray != undefined) {
+
+        let payloadArray = <Object[]>action.payload.pulledArray;
+          console.log("got payload from effect: " + payloadArray);
+          console.log("first element is: " + payloadArray[0]);
+        }
+
+      }
+
+
       default: {
         return state;
       }

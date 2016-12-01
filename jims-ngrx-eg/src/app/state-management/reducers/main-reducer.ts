@@ -24,16 +24,28 @@ export const mainReducer: ActionReducer<State> =
       }
 
       case "PAYLOAD_EFFECT_RESPONDS": {
-        console.log("got payload from effect: " + action.payload.message);
+        console.log("got array payload from effect: " + action.payload.pulledArray);
       }
 
-      case "FIREBASE_CALL_FINISHED": {
+      case "GOT_FIREBASE_ARRAY": {
 
+        console.log("got array payload from effect: " + action.payload.pulledArray);
         if (action.payload.pulledArray != undefined) {
 
         let payloadArray = <Object[]>action.payload.pulledArray;
           console.log("got payload from effect: " + payloadArray);
           console.log("first element is: " + payloadArray[0]);
+        }
+
+      }
+
+      case "GOT_FIREBASE_OBJECT": {
+
+        if (action.payload.pulledObject != undefined) {
+
+          let payloadObject = <Object[]>action.payload.pulledObject;
+          console.log("got object payload from effect: " + payloadObject);
+          // console.log("first element is: " + payloadObject);
         }
 
       }

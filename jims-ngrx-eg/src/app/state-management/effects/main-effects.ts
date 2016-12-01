@@ -36,49 +36,24 @@ export class MainEffects {
         )
     )
 
-  @Effect() pullFromFirebase$ = this.action$
+  @Effect() pullArrayFromFirebase$ = this.action$
     .ofType('PULL_ARRAY_FROM_FIREBASE')
     .switchMap( () => {
-      console.log('in te switch map!')
-
         return this.af.database.list('/cypherapp/rooms/')
         .switchMap(result => {
-          console.log(' in the map! ' + JSON.stringify(result));
-          return Observable.of({type: "FIREBASE_CALL_FINISHED", payload: {pulledArray:  result}})
-          }
-        )
-    }
-    )
-  // firebase.database().ref('/cypherapp/rooms/').on('value', (dataSnapshot)
-           // Observable.of({type: "FIREBASE_CALL_FINISHED", payload: {pulledArray:  =>dataSnapshot}})))
-           // ret rn Observable.of({type: "FIREBASE_CALL_FINISHED", payload: {pulledArray: dataSnapshot}}))
+          console.log('hi');
+          return Observable.of({type: "GOT_FIREBASE_ARRAY", payload: {pulledArray:  result}})
+          })
+    })
 
-
-  // )
-  // .switchMap(payload => Observable.timer(payload.seconds)
-  // .switchMap( () => Observable.of({type:"TIMER_HAS_FINISHED"}))
-
-  // .switchMap( (payload:toPayload) =>
-
-  // console.log('payload is: ' + payload);
-  // Observable.timer(2000)
-  //   .switchMap(() => Observable.of({ type: "TIMER_HAS_FINISHED" })
-  // );
-
-
-  // @Effect() update$ = this.action$
-  //   .ofType('PULL_ARRAY_FROM_FIREBASE')
-  //   .switchMap( () =>
-
-  // firebase.ref.subscribe() =>
-  // Observable.
-  // );
-  // .switchMap( (payload:toPayload) =>
-
-  // console.log('payload is: ' + payload);
-  // Observable.timer(2000)
-  //   .switchMap(() => Observable.of({ type: "TIMER_HAS_FINISHED" })
-  // );
+  @Effect() pullObjectFromFirebase$ = this.action$
+    .ofType('PULL_OBJECT_FROM_FIREBASE')
+    .switchMap( () => {
+      return this.af.database.object('/cypherapp/rooms/')
+        .switchMap(result => {
+          return Observable.of({type: "GOT_FIREBASE_OBJECT", payload: {pulledObject: result}})
+        })
+    })
 
 
 }

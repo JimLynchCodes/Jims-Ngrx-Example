@@ -31,14 +31,15 @@ export class AppComponent {
     this.store.dispatch({ type: "SET_TIMER", payload: {seconds: 2 }});
     this.store.dispatch({ type: "SEND_PAYLOAD_TO_EFFECT", payload: {message: "The component says hello!" }});
     this.store.dispatch({ type: "PULL_ARRAY_FROM_FIREBASE"});
+    this.store.dispatch({ type: "PULL_OBJECT_FROM_FIREBASE"});
 
   }
 
   ngOnInit() {
     console.log("%% in init")
-    firebase.database().ref('/cypherapp/rooms/').on('value', dataSnapshot => {
-      console.log('%% regular callback firebase 3 library still works! ' + JSON.stringify(dataSnapshot));
-    })
+    // firebase.database().ref('/cypherapp/rooms/').on('value', dataSnapshot => {
+    //   console.log('%% regular callback firebase 3 library still works! ' + JSON.stringify(dataSnapshot));
+    // })
   }
 
 

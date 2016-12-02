@@ -37,6 +37,8 @@ export const mainReducer: ActionReducer<State> =
           console.log("first element is: " + payloadArray[0]);
         }
 
+        return Object.assign(state);
+
       }
 
       case "GOT_FIREBASE_OBJECT": {
@@ -46,6 +48,16 @@ export const mainReducer: ActionReducer<State> =
           let payloadObject = <Object[]>action.payload.pulledObject;
           console.log("got object payload from effect: " + payloadObject);
           // console.log("first element is: " + payloadObject);
+
+          // let newState = Object.assign(state);
+          // newState.displayText = payloadObject['off_tha_top']['roomDetails']['description'];
+          // console.log('got the display text: ' + newState.displayText);
+          // return newState;
+
+          return {
+            counter: 4,
+            displayText:payloadObject['off_tha_top']['roomDetails']['description']
+          }
         }
 
       }

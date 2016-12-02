@@ -15,6 +15,7 @@ import {Cheese} from "./.cheese";
 export class AppComponent {
   title = 'app works!';
   data = '';
+  displayText:string = '';
 
   constructor (private store:Store<State>) {
 
@@ -23,7 +24,8 @@ export class AppComponent {
     store.select('mainReducer')
       .subscribe( (data:State )=> {
         this.data = 'data is' + data.counter;
-        console.log('component sees data is: ' + data.counter);
+        this.displayText = data.displayText;
+        console.log('component sees data is: ' + data.counter + " and " + data.displayText);
       });
 
     this.store.dispatch({ type: INCREMENT, payload: {innerObj: {text: "derp!"}} });

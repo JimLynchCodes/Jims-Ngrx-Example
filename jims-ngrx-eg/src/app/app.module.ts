@@ -9,6 +9,8 @@ import { StoreModule } from "@ngrx/store";
 import {MainEffects} from "./state-management/effects/main-effects";
 import {EffectsModule} from "@ngrx/effects";
 import { AngularFireModule } from 'angularfire2';
+import { SmartComponentComponent } from './smart-component/smart-component.component';
+import { DumbComponentComponent } from './dumb-component/dumb-component.component';
 
 
 export const firebaseConfig = {
@@ -22,7 +24,9 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SmartComponentComponent,
+    DumbComponentComponent
   ],
   imports: [
     BrowserModule,

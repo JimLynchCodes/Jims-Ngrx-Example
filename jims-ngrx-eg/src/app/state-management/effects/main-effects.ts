@@ -40,10 +40,9 @@ export class MainEffects {
     .ofType('PULL_ARRAY_FROM_FIREBASE')
     .switchMap( () => {
         return this.af.database.list('/cypherapp/rooms/')
-        .switchMap(result => {
-          console.log('hi');
-          return Observable.of({type: "GOT_FIREBASE_ARRAY", payload: {pulledArray:  result}})
-          })
+        .switchMap(result =>
+          Observable.of({type: "GOT_FIREBASE_ARRAY", payload: {pulledArray:  result}})
+          )
     })
 
   @Effect() pullObjectFromFirebase$ = this.action$

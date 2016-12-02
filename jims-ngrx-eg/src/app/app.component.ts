@@ -6,11 +6,13 @@ import {mainReducer} from "./state-management/reducers/main-reducer";
 
 import * as firebase from 'firebase';
 import {Cheese} from "./.cheese";
+import {SmartComponentComponent} from "./smart-component/smart-component.component";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  // directives: [SmartComponentComponent]
 })
 export class AppComponent {
   title = 'app works!';

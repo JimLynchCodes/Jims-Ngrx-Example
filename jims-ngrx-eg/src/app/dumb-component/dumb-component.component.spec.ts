@@ -22,7 +22,6 @@ describe('DumbComponentComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  //
+  
 });

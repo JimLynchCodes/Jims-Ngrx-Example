@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import {DumbComponentComponent} from "../dumb-component/dumb-component.component";
 
 @Component({
   selector: 'app-smart-component',
   templateUrl: 'smart-component.component.html',
-  styleUrls: ['smart-component.component.css']
+  styleUrls: ['smart-component.component.css'],
+  // directives: [DumbComponentComponent]
 })
 export class SmartComponentComponent implements OnInit {
 

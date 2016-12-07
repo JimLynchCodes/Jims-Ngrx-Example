@@ -14,11 +14,10 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         SmartComponentComponent,
-        DumbComponentComponent,
+        DumbComponentComponent
       ],
       imports: [
-        StoreModule.provideStore({mainReducer}),
-
+        StoreModule.provideStore({mainReducer})
       ],
     });
   });
@@ -28,8 +27,10 @@ describe('AppComponent', () => {
   // ]));MockStore
 
   it('should create the app', async(() => {
-    var spy = spyOn(AppComponent.store, "dispatch")
-      .andCallFake(function () {
+    // var spy = spyOn(Store, "dispatch").and.callFake(
+
+    Object.defineProperty(Store, 'dispatch',
+      function () {
         console.log("Faking the Dispatch!")
       });
 

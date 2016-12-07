@@ -7,6 +7,7 @@ import {mainReducer} from "./state-management/reducers/main-reducer";
 import * as firebase from 'firebase';
 import {Cheese} from "./.cheese";
 import {SmartComponentComponent} from "./smart-component/smart-component.component";
+import {TestService} from "./test.service";
 
 @Component({
   selector: 'app-root',
@@ -19,9 +20,11 @@ export class AppComponent {
   data = '';
   displayText:string = '';
 
-  constructor (private store:Store<State>) {
+  constructor (private store:Store<State>, test:TestService) {
 
     // firebase.initializeApp(Cheese.config);
+
+    test.derpOut();
 
     store.select('mainReducer')
       .subscribe( (data:State )=> {

@@ -1,12 +1,41 @@
 /* tslint:disable:no-unused-variable */
-
-import { TestBed, async } from '@angular/core/testing';
+import { Injectable } from '@angular/core';
+import { TestBed, async} from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import {SmartComponentComponent} from "./smart-component/smart-component.component";
 import {DumbComponentComponent} from "./dumb-component/dumb-component.component";
 import {mainReducer} from "./state-management/reducers/main-reducer";
 import { StoreModule } from "@ngrx/store";
 import { Store } from "@ngrx/store";
+import {TestService} from "./test.service";
+import { Observable } from 'rxjs/Observable';
+
+
+@Injectable()
+export class MockTestService {
+
+  public derpOut() {
+    console.log('we derping from the mock!');
+  }
+
+  constructor() { }
+
+}
+
+
+
+class MockStore {
+  public dispatch(obj) {
+    console.log('dispatching from the mock store!')
+  }
+
+  public select(obj) {
+    console.log('selecting from the mock store!')
+
+    return Observable({});
+  }
+}
+
 
 describe('AppComponent', () => {
   beforeEach(() => {
@@ -14,13 +43,18 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         SmartComponentComponent,
-        DumbComponentComponent
+        DumbComponentComponent,
       ],
       imports: [
         StoreModule.provideStore({mainReducer})
       ],
+      providers: [
+        { provide: TestService, useClass: MockTestService },
+        {provide: Store, useClass: MockStore}
+      ]
     });
   });
+
 
   // beforeEach(() => addProviders([
   //   {provide: Store, useClass: MockStore}

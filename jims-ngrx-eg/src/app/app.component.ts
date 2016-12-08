@@ -22,6 +22,7 @@ export class AppComponent {
 
   constructor (private store:Store<State>) {
 
+
     store.select('mainReducer')
       .subscribe( (data:State )=> {
         this.data = 'data is' + data.counter;
@@ -29,12 +30,15 @@ export class AppComponent {
         console.log('component sees data is: ' + data.counter + " and " + data.displayText);
       });
 
+    setTimeout(() => {
+
     this.store.dispatch({ type: INCREMENT, payload: {innerObj: {text: "derp!"}} });
     this.store.dispatch({ type: "SUPER_SIMPLE_EFFECT", payload: {seconds: 2 }});
     this.store.dispatch({ type: "SET_TIMER", payload: {seconds: 2 }});
     this.store.dispatch({ type: "SEND_PAYLOAD_TO_EFFECT", payload: {message: "The component says hello!" }});
     this.store.dispatch({ type: "PULL_ARRAY_FROM_FIREBASE"});
     this.store.dispatch({ type: "PULL_OBJECT_FROM_FIREBASE"});
+    }, 2000);
 
   }
 

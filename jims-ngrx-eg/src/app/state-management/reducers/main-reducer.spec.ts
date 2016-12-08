@@ -29,13 +29,13 @@ describe('Reducer', () => {
     // fixture.detectChanges();
   });
 
-  it('should create', inject([Store], (store: Store<State>) => {
-    expect(store).toBeTruthy();
-
-
-    store.dispatch({ type: "INCREMENT", payload: {innerObj: {text: "derp!"}} });
-
-
-
-  }));
+  // it('should create', inject([Store], (store: Store<State>) => {
+  //   expect(store).toBeTruthy();
+  //
+  //
+  //   store.dispatch({ type: "INCREMENT", payload: {innerObj: {text: "derp!"}} });
+  //
+  //
+  //
+  // }));
 });

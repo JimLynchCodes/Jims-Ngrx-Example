@@ -7,9 +7,7 @@ import {SmartComponentComponent} from "./smart-component/smart-component.compone
 import {mainReducer} from "./state-management/reducers/main-reducer";
 import { StoreModule } from "@ngrx/store";
 import { Store } from "@ngrx/store";
-import {TestService} from "./test.service";
 import {Observable} from "rxjs";
-
 
 
 class MockStore {
@@ -42,18 +40,7 @@ describe('AppComponent', () => {
     });
   });
 
-
-  // beforeEach(() => addProviders([
-  //   {provide: Store, useClass: MockStore}
-  // ]));MockStore
-
   it('should create the app', async(() => {
-    // var spy = spyOn(Store, "dispatch").and.callFake(
-
-    Object.defineProperty(Store, 'dispatch',
-      function () {
-        console.log("Faking the Dispatch!")
-      });
 
     let fixture = TestBed.createComponent(AppComponent);
     let app = fixture.debugElement.componentInstance;

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,cAAc,gBAAgB,CAAC","sourcesContent":["export * from './angularfire2';\n\ninterface DecoratorInvocation {\n  type: Function;\n  args?: any[];\n}\n"]}

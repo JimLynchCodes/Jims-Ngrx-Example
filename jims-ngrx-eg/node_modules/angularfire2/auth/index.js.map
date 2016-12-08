@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/auth/index.ts"],"names":[],"mappings":"AAAA,cAAc,QAAQ,CAAC;AACvB,cAAc,gBAAgB,CAAC;AAC/B,cAAc,6BAA6B,CAAC","sourcesContent":["export * from './auth';\nexport * from './auth_backend';\nexport * from './firebase_sdk_auth_backend';\ninterface DecoratorInvocation {\n  type: Function;\n  args?: any[];\n}\n"]}

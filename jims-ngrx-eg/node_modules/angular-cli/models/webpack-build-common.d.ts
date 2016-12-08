@@ -1,0 +1,46 @@
+export declare function getWebpackCommonConfig(projectRoot: string, environment: string, appConfig: any, baseHref: string): {
+    devtool: string;
+    resolve: {
+        extensions: string[];
+        modules: string[];
+    };
+    context: string;
+    entry: {
+        [key: string]: string[];
+    };
+    output: {
+        path: string;
+        filename: string;
+    };
+    module: {
+        rules: ({
+            enforce: string;
+            test: RegExp;
+            loader: string;
+            exclude: RegExp[];
+        } | {
+            exclude: any;
+            test: RegExp;
+            loaders: string[];
+        } | {
+            include: any;
+            test: RegExp;
+            loader: string;
+        } | {
+            test: RegExp;
+            loader: string;
+        })[];
+    };
+    plugins: any[];
+    node: {
+        fs: string;
+        global: boolean;
+        crypto: string;
+        tls: string;
+        net: string;
+        process: boolean;
+        module: boolean;
+        clearImmediate: boolean;
+        setImmediate: boolean;
+    };
+};

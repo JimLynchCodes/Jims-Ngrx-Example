@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":1,"metadata":{"AuthProviders":{"Github":0,"Twitter":1,"Facebook":2,"Google":3,"Password":4,"Anonymous":5,"Custom":6},"AuthMethods":{"Popup":0,"Redirect":1,"Anonymous":2,"Password":3,"OAuthToken":4,"CustomToken":5}}}

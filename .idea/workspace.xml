@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303095b9-f31d-4b67-99c7-92e98a5f692e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-spy.spec.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-mock.spec.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/test.service.spec.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/test.service.spec.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="197">
+              <caret line="30" column="9" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -64,19 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-reducer.spec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-reducer.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="39" column="9" selection-start-line="31" selection-start-column="5" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="e#81#162#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.with-store-mock.spec.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.with-store-mock.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-mock.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="101">
@@ -85,6 +79,16 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#40#83#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-reducer.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,18 +111,6 @@
             <state relative-caret-position="75">
               <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smart-component.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/smart-component/smart-component.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -176,10 +168,10 @@
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/smart-component/smart-component.component.ts" />
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts" />
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/test.service.spec.ts" />
-        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" />
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-spy.spec.ts" />
         <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-mock.spec.ts" />
+        <option value="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" />
       </list>
     </option>
   </component>
@@ -192,10 +184,10 @@
     <handled-path value="$PROJECT_DIR$/jims-ngrx-eg/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1894" />
-    <option name="y" value="280" />
+    <option name="x" value="-1927" />
+    <option name="y" value="330" />
     <option name="width" value="1541" />
-    <option name="height" value="802" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -474,21 +466,22 @@
       <workItem from="1480999768753" duration="2060000" />
       <workItem from="1481145609050" duration="2138000" />
       <workItem from="1481158219631" duration="709000" />
-      <workItem from="1481228371881" duration="2616000" />
+      <workItem from="1481228371881" duration="3937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37512000" />
+    <option name="totallyTimeSpent" value="38833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1894" y="280" width="1541" height="802" extended-state="0" />
+    <frame x="-1927" y="330" width="1541" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27171052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38061798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4002954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -502,7 +495,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -560,7 +552,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -605,6 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/node_modules/@ngrx/store/src/store.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -823,7 +809,7 @@
         <state relative-caret-position="225">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -833,7 +819,7 @@
         <state relative-caret-position="120">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,24 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="39" column="9" selection-start-line="31" selection-start-column="5" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="e#81#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.with-store-spy.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -919,6 +887,30 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#40#83#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" column="9" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

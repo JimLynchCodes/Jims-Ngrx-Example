@@ -20,7 +20,7 @@ class MockStore {
   public select(obj) {
     console.log('selecting from the mock store!');
 
-    return Observable.of({type: "PAYLOAD_EFFECT_RESPONDS", payload: {message: "The effect says hi!"}})
+    return Observable.of({})
   }
 }
 

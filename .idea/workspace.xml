@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="303095b9-f31d-4b67-99c7-92e98a5f692e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/smart-component/smart-component.component.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/smart-component/smart-component.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" afterPath="$PROJECT_DIR$/jims-ngrx-eg/src/app/state-management/reducers/main-reducer.spec.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#40#83#0" expanded="true" />
@@ -489,12 +486,12 @@
       <workItem from="1480706219343" duration="5064000" />
       <workItem from="1480999768753" duration="2060000" />
       <workItem from="1481145609050" duration="2138000" />
-      <workItem from="1481158219631" duration="644000" />
+      <workItem from="1481158219631" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34831000" />
+    <option name="totallyTimeSpent" value="34896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="30" width="1541" height="802" extended-state="0" />
@@ -931,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jims-ngrx-eg/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#40#83#0" expanded="true" />

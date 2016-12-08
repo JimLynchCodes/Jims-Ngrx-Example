@@ -1,6 +1,7 @@
 # Jims-Ngrx-Example
 A simple example of setting up and Angular 2 project with Ngrx/store nd Ngrx/effects
----
+
+--
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
 

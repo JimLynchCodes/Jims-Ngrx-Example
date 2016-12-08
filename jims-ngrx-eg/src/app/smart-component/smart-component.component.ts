@@ -7,7 +7,7 @@ import {DumbComponentComponent} from "../dumb-component/dumb-component.component
   styleUrls: ['smart-component.component.css'],
   // directives: [DumbComponentComponent]
 })
-export class SmartComponentComponent implements OnInit {
+export class SmartComponentComponent{
 
   displayText :string = 'yessir';
 

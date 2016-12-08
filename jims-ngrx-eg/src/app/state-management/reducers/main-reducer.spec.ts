@@ -6,7 +6,6 @@ import { async, ComponentFixture, TestBed, inject } from '@angular/core/testing'
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { SmartComponentComponent } from './smart-component.component';
 import {mainReducer} from "./main-reducer";
 import { StoreModule } from "@ngrx/store";
 import {State} from "../state/main-state";
@@ -35,8 +34,8 @@ describe('Reducer', () => {
 
 
     store.dispatch({ type: "INCREMENT", payload: {innerObj: {text: "derp!"}} });
-    
-    
+
+
 
   }));
 });

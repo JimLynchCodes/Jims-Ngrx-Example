@@ -20,11 +20,7 @@ export class AppComponent {
   data = '';
   displayText:string = '';
 
-  constructor (private store:Store<State>, test:TestService) {
-
-    // firebase.initializeApp(Cheese.config);
-
-    test.derpOut();
+  constructor (private store:Store<State>) {
 
     store.select('mainReducer')
       .subscribe( (data:State )=> {
@@ -42,12 +38,7 @@ export class AppComponent {
 
   }
 
-  ngOnInit() {
-    console.log("%% in init")
-    // firebase.database().ref('/cypherapp/rooms/').on('value', dataSnapshot => {
-    //   console.log('%% regular callback firebase 3 library still works! ' + JSON.stringify(dataSnapshot));
-    // })
-  }
+  ngOnInit() { }
 
 
 }

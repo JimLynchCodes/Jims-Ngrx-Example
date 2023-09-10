@@ -1,8 +1,5 @@
 # Jims-Ngrx-Example
 
-Need help? Visit the chatroom: [![Join the chat at https://gitter.im/Jims-Ngrx-Example/Lobby](https://badges.gitter.im/Jims-Ngrx-Example/Lobby.svg)](https://gitter.im/Jims-Ngrx-Example/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
 A simple example of setting up and Angular 2 project with Ngrx/store nd Ngrx/effects
 
 --
